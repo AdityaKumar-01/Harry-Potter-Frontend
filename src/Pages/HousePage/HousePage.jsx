@@ -19,34 +19,34 @@ const HousePage = () => {
       .catch((err) => {
         console.log(err);
       });
-  }, []);
+  }, [house]);
   return (
     <div className="student-container">
       <Header />
       <div className="student-title">Search your characters by house</div>
-      <div className="house-names">
-        <span
+      <div className="house-name-container">
+        <span className="house-names"
           onClick={() => {
             setHouse("gryffindor");
           }}
         >
           Gryffindor
         </span>
-        <span
+        <span className="house-names"
           onClick={() => {
             setHouse("Slytherin");
           }}
         >
           Slytherin
         </span>
-        <span
+        <span className="house-names"
           onClick={() => {
             setHouse("Hufflepuff");
           }}
         >
           Hufflepuff
         </span>
-        <span
+        <span className="house-names"
           onClick={() => {
             setHouse("Ravenclaw");
           }}

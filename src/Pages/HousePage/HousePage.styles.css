@@ -1,0 +1,19 @@
+.house-names{
+    width: max-content;
+    background-color:#E84545;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:2%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    cursor:pointer;
+}
+.house-name-container{
+    display: flex;
+    width:100%;
+    justify-content: center;
+    align-items: stretch;
+}

@@ -15,7 +15,7 @@
     border-radius: 10px;
 }
 .student-card-chips{
-    width:fit-content;
+    width:max-content;
     padding:3%;
     background-color:#E84545;
     border-radius: 5px;
