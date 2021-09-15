@@ -30,11 +30,12 @@
   width:100%;
   justify-content: center;
   align-items: stretch;
+  margin:5%;
 }
 
 .section-img img{
     z-index: 10;
-    height:350px
+    height:400px
 }
 .section-info{
     background-color:rgba(0, 0, 0, 0.486);
@@ -56,4 +57,8 @@
     border:none;
     background-color:#08D9D6;
     cursor:pointer;
+}
+.section-btn{
+  text-decoration: none;
+  color:black;
 }

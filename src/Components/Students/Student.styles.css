@@ -1,0 +1,30 @@
+.student-card{
+    display: flex;
+    width:40%;
+    /* background-color:#E84545; */
+    margin: 1%;
+}
+
+.student-card-right{
+    display: flex;
+    flex-wrap: wrap;
+}
+.student-card-left img{
+    height:350px;
+    width:250px;
+    border-radius: 10px;
+}
+.student-card-chips{
+    width:fit-content;
+    padding:3%;
+    background-color:#E84545;
+    border-radius: 5px;
+    height:35px;
+    text-align:center;
+    margin: 3%;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
