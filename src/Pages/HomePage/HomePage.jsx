@@ -10,6 +10,7 @@ import studentImg from "../../Assets/sec-2.webp";
 import houseImg from "../../Assets/sec-4.webp";
 
 import "./HomePage.css";
+
 const HomePage = () => {
   return (
     <div className="homepage-container">
